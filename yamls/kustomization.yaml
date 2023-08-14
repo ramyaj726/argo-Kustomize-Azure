@@ -1,1 +1,7 @@
-image: 440953937617.dkr.ecr.us-east-2.amazonaws.com/testrepo:106
+resources:
+- nginx-deployment.yaml
+- nginx-svc.yaml
+images:
+- name: the-my-app
+  newName: test
+  newTag:890
